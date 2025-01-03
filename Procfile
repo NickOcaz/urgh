@@ -1,1 +1,1 @@
-web: gunicorn urgh.wsgi
+web: gunicorn codestar.wsgi --workers 3
